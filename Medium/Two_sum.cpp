@@ -14,6 +14,8 @@ public:
         {
             int sum = numbers[po_one] + numbers[po_two];
             if(sum == target){
+                po_one++;
+                po_two++;
                 ans.push_back(po_one);
                 ans.push_back(po_two);
                 break;
