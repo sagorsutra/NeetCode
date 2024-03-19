@@ -12,8 +12,6 @@ public:
 
         while (p_one < p_two)
         {
-           
-
             h = min(height[p_one],height[p_two]);
             w = p_two - p_one;
             ans = h * w;
@@ -29,13 +27,7 @@ public:
             else {
                 p_two--;
             }
-             
-            // cout<<ans<<endl;
-            // cout<<p_one<<" ";
-            // cout<<p_two<<endl;
-             
-        }
-         
+        }       
         return Maxarea;
          
     }
