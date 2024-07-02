@@ -3,6 +3,8 @@
         "sstream": "cpp",
         "regex": "cpp",
         "iostream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp"
     }
 }
