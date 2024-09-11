@@ -42,7 +42,7 @@ public:
         ListNode* slow = head;
         ListNode* fast = head;
 
-        while (fast && fast->next) {
+        while (fast && fast->next) {  // split the list into half
             slow = slow->next;
             fast = fast->next->next;
         }
